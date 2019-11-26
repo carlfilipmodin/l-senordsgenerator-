@@ -10,6 +10,8 @@ password = ""
 for c in range (897000):
     password += random.choice(chars)
     password += random.choice(chars1)
+    password += random.choice(chars2)
+    password += random.choice(chars3)
     
 
 password = ''.join(random.sample(password,len(password)))
